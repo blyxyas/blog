@@ -27,7 +27,7 @@ Note that we don't know yet the number of bits we need (we only know that it nee
 
 Nobody said that we need to think of our bytes as a single number (well, I kinda did). So we're going to split our bits into two $\frac{n}{2}$-bit clusters. The first cluster will contain positions for Player 1, and the second cluster will contain positions for Player 2.
 
-{{< image src="/images/tic-tac-toe-split.png" alt="Diagram with a 128-bit binary number with two clusters" position="center" style="border-radius: 8px;" >}}
+{{< image src="https://github.com/blyxyas/blog/blob/main/static/images/tic-tac-toe-split.png" alt="Diagram with a 128-bit binary number with two clusters" position="center" style="border-radius: 8px;" >}}
 
 Now, we can create more clusters inside those clusters! We'll make 9 more clusters inside each one of those clusters to store each one of the squares. We'll use 2 bits to represent a single square. Doesn't trigger your programmer built-alarms? Using 4 possible values to represent 3 possibilites?
 
@@ -35,7 +35,7 @@ Now, we can create more clusters inside those clusters! We'll make 9 more cluste
 
 Let's imagine we have this board:
 
-{{< image src="/images/tic-tac-toe-gamestate.png" alt="Diagram with a 128-bit binary number with two clusters" position="center" style="border-radius: 10px;" >}}
+{{< image src="https://raw.githubusercontent.com/blyxyas/blog/main/static/images/tic-tac-toe-gamestate.png" alt="Diagram with a 128-bit binary number with two clusters" position="center" style="border-radius: 10px;" >}}
 
 Having the following distribution:
 

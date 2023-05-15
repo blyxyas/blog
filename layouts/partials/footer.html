@@ -11,8 +11,8 @@
 	  {{ end }}
 	</div>
   </footer>
-  {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
-  
+  {{ if .Params.katex }}{{ partial "katex.html" . }}{{ end }}
+
   {{ $menu := resources.Get "js/menu.js" | js.Build }}
   {{ $prism := resources.Get "js/prism.js" | js.Build }}
   {{ $theme := resources.Get "js/theme.js" | js.Build }}

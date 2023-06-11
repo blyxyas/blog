@@ -1,7 +1,7 @@
 ---
 title: "Celeste is a masterpiece (I know, nothing new)"
 date: 2023-05-30T12:16:58+02:00
-draft: true
+draft: false
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

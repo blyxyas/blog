@@ -40,7 +40,7 @@ paginate = 5
   [languages.en]
     title = "Stupid little things"
     subtitle = "A blog I made"
-    keywords = ""
+    keywords = "tech, math, games, indie, geek"
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -56,7 +56,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Silly Little Things"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog"
     # or
     #
     # path = "/img/your-example-logo.svg"

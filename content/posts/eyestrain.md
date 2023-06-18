@@ -1,7 +1,7 @@
 ---
 title: "Crafting the best IDE theme to ever exist using science"
 date: 2023-06-11T22:54:39+02:00
-draft: true
+draft: false
 katex: true
 ---
 

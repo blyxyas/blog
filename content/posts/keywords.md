@@ -1,7 +1,7 @@
 ---
 title: "Stop putting weird things in your titles, please ❤️"
 date: 2023-06-19T23:12:03+02:00
-draft: true
+draft: false
 katex: true
 ---
 

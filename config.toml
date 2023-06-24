@@ -66,7 +66,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/blog/about"
+        url = "https://blyxyas.github.io"
     #   [[languages.en.menu.main]]
         # identifier = "showcase"
         # name = "Showcase"

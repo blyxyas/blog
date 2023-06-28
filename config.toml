@@ -7,7 +7,7 @@ enableEmoji = true
 [[module.imports]]
   path = 'github.com/panr/hugo-theme-hello-friend'
 
-baseurl = "/blog"
+baseurl = "/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -56,7 +56,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Silly Little Things"
-      logoHomeLink = "/blog"
+      logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -70,7 +70,7 @@ paginate = 5
     #   [[languages.en.menu.main]]
         # identifier = "showcase"
         # name = "Showcase"
-        # url = "/blog/showcase"
+        # url = "/showcase"
 
 [markup.goldmark.renderer]
 unsafe= true

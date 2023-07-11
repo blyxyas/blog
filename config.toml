@@ -38,7 +38,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Stupid little things"
+    title = "Silly little things"
     subtitle = "A blog I made"
     keywords = "tech, math, games, indie, geek"
     copyright = ""

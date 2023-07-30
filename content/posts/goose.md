@@ -2,6 +2,7 @@
 title: "I make poor life choices"
 date: 2023-06-28T11:39:26+02:00
 draft: false
+rainbowcursor: true
 ---
 
 Maybe you've noticed that the domain name of my blog and [about page](https://goose.love) isn't `blyxyas.github.io` anymore, that's because I decided to upgrade *my internet level* and buy **my own domain name :D**.

@@ -3,6 +3,7 @@ title: "Stop putting weird things in your titles, please ❤️"
 date: 2023-06-19T23:12:03+02:00
 draft: false
 katex: true
+rainbowcursor: true
 ---
 
 I'm a frequent YouTube user, I've been watching videos as early as I can remember. If you are also a frequent YouTube user, you've probably seen content creators' title style changing in real time. There was an era when everything was IN ALL CAPS. Then, Every Single Word Started Being Capitalized. Now, some videos simply don't capitalize their videos as the stylistic choice. Do you remember when they used \*\*ASTERISKS\*\* as if they made the title bolder than it already is? In the early days, everything had to be in its own series. If you've made 2 vlogs, *now you have a vlogging series*! So you put " | Vlog Ep. 2" at the end of your title. Yay :D

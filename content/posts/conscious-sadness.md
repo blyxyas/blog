@@ -2,6 +2,7 @@
 title: "Living an entire life in the same room as always"
 date: 2023-07-30T00:55:10+02:00
 draft: false
+nocursor: true
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

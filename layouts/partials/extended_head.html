@@ -5,8 +5,25 @@
 	}
 	.post-title {background: -webkit-linear-gradient(rgb(111, 1, 213), rgb(71, 0, 137)); padding: 10px; border-radius: 10px; color: white;}
     sub { opacity: 50%; }
+    .logo__text {
+        font-size: 3rem;
+        color: rgb(132, 0, 0);
+    }
+    .logo__text:before {
+        content: "Silly Little Things";
+        -webkit-transform-origin: center;
+        -webkit-text-stroke: 5px rgb(218, 0, 0);
+        color: red;
+        position: absolute;
+        filter: url(#filter);
+    }
 </style>
-
+<svg height="0" width="0">
+<filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+	<feTurbulence type="turbulence" baseFrequency="0.01 0.05" numOctaves="2" seed="316" stitchTiles="stitch" result="turbulence"/>
+	<feDisplacementMap in="SourceGraphic" in2="turbulence" scale="8" xChannelSelector="G" yChannelSelector="A" result="displacementMap"/>
+</filter>
+</svg>
 <link rel="canonical" href="https://blog.goose.love/" />
 {{ if .Params.nocursor }}
 {{ else }}

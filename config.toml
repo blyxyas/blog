@@ -37,7 +37,7 @@ paginate = 5
   # rssFullText = true
 
 [languages]
-  [languages.en]
+  [languages.en.params]
     title = "Silly little things"
     subtitle = "A blog I made"
     keywords = "tech, math, games, indie, geek"

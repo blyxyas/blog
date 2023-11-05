@@ -1,18 +1,18 @@
 ---
 title: "The Clippy Performance Project"
 date: 2023-11-04T14:20:46+01:00
-draft: false
+draft: true
 ---
 
 There's this project I've been working on a project that nobody outside the Clippy team (or people that read the [`#clippy` Zulip channel](https://rust-lang.zulipchat.com/#narrow/stream/257328-clippy)) knows about.
 
-I'm working on the <span class="cpp">Clippy Performance Project</span>, a project focused on making [Clippy, the official Rust linter](https://github.com/rust-lang/rust-clippy) faster through better performance monitoring, some parallelization through a cool tree-visiter and improving the rustc infrastructure to do more with less computing!
+I'm working on the <span class="cpp">Clippy Performance Project</span>, a project focused on making [Clippy, the official Rust linter](https://github.com/rust-lang/rust-clippy) faster through optimization based on data we gather.
 
 I've been working on this project for about 4 months. The main improvements to the codebase in this time are <span class="cpp">benchmarking and monitoring tools</span>, so we'll talk about them. This will be more of a devlog article, instead of an artsy one. So sorry for the boringness! Next post will have an OpenGL motorcycle mini-game as an apology.
 
 ## Integrating Clippy with existing benchmarking infrastructure
 
-Before doing any optimizing, we should probably know what are our numbers and what is our goal. In our case, the Rust project has this very cool program (and GitHub bot) called [`rustc-perf`](https://github.com/rust-lang/rustc-perf). It generates [perf.rust-lang.org](https://perf.rust-lang.org), used to track Rust's compiling and running times on multiple crates across several profiles (Building, checking...).
+Before optimizing, we should know what is our baseline. In our case, the Rust project has this very cool program (and GitHub bot) called [`rustc-perf`](https://github.com/rust-lang/rustc-perf). It generates [perf.rust-lang.org](https://perf.rust-lang.org), used to track Rust's compiling and running times on multiple crates across several profiles (Building, checking...).
 
 The current profiles are:
 
@@ -32,14 +32,14 @@ This will benchmark the Clippy build contained in `../rust/build/host/stage2/bin
 
 ## The convenience tool
 
-To go along with the `rustc-perf` Clippy integration, I made [becnh](https://github.com/blyxyas/becnh). You can think of becnh as a Cargo, but for benchmarking Clippy. It's run with a command like `./becnh #10404 unused_enumerate_index`. Becnh will then go visit the `rust-clippy` local repo, pull all new data and copy the #10404 PR.
+To go along with the `rustc-perf` Clippy integration, I made [becnh](https://github.com/blyxyas/becnh). It's run with a command like `./becnh #10404 unused_enumerate_index`. Becnh will then go visit the `rust-clippy` local repo, pull the #10404 PR and build the Rust compiler replacing the upstream Clippy module with the PR.
 
-It will then build Rust with that Clippy PR, and benchmark the result. Furthermore, it can also compare it with `master` if the user chooses to do so.
+The final artifact with the custom Clippy is then benchmarked. Furthermore, it can also compare it with `master` if the user chooses to do so.
 In general, I find it to be a very good Quality Of Life improvement. Becnh provides a labeled and reproducible environment using the full potential of Git.
 
 ## Scheduling these benchmarks
 
-There's no use to a monitoring tool if we don't monitor the default state on a schedule. We could do it manually, *or* we could create a GitHub action to run in on a schedule (using cronjobs)
+There's no use to a monitoring tool if we don't monitor the default state on a schedule. We could do it manually, *or* we could create a GitHub action to run in on a schedule (using cronjobs).
 
 I tried doing that in [a (now archived) repository](https://github.com/blyxyas/clippy-ci) that would later become the becnh repository. It only had one flaw...
 
@@ -69,15 +69,13 @@ I tried everything, but I just couldn't use `perf` in the actions, we had to inv
 
 ---
 
-I have access to some servers provided by the Rust foundation, they are called ["Dev Desktops"](https://forge.rust-lang.org/infra/docs/dev-desktop.html). What if, instead of scheduling the benchmark to run in the GitHub infrastructure, we schedule the GitHub action to SSH the server and run `becnh` there? Indeed, that's what the new scheduling does, allowing us to have weekly benchmark results committed to the repo!
+I have access to some servers provided by the Rust foundation, they are called ["Dev Desktops"](https://forge.rust-lang.org/infra/docs/dev-desktop.html). What if, instead of scheduling the benchmark to run in the GitHub infrastructure, we schedule the GitHub action to SSH the server and run becnh there? Indeed, that's what the new scheduling does, allowing us to have weekly benchmark results committed to the repo!
 
 But weekly is **not** enough. We should also be able to have on-demand benchmarking! We can set up another action, this one would make sure to catch all comments, and if they pass some requirements, benchmark the PR:branch that they're talking about.
 
 ## What's next in line?
 
-In the current stage of the <span class="cpp">Clippy Performance Project</span> we have almost finished the benchmarking and monitoring stage. The next big milestone to achieve is removing all unused lints on preprocessing, so that the compiler doesn't need to process allowed lints (currently what's happening). I'll post some more juicy :beverage_box: updates after that.
-
-**Let's make Clippy blazingly fast by 2024!**
+In the current stage of the <span class="cpp">Clippy Performance Project</span> we have almost finished the benchmarking and monitoring stage. The next big milestone to achieve is removing all unused lints on preprocessing, so that the compiler doesn't need to process allowed lints (currently what's happening). I'll post some :beverage_box: juicy updates once the next milestone is reached.
 
 <div style="width:100%;height:0;padding-bottom:125%;position:relative;"><iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 

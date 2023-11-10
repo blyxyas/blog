@@ -25,7 +25,23 @@
     }
 
     style {
-    display: none;}
+    display: none;
+    }
+
+    .menu__inner li {
+        border: 1px solid red;
+        padding: 4px;
+        position: relative;
+        appearance: none;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        border-radius: 100px;
+
+        border: 2px solid transparent;
+        background: linear-gradient(#000, #000) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+    }
 </style>
 <svg height="0" width="0">
 <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
@@ -40,5 +56,17 @@
     import { rainbowCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
   
     new rainbowCursor();
+
+    document.getElementById("sponsor").style.setProperty("--x", "50%");
+    document.getElementById("sponsor").style.setProperty("--y", "50%");
+
+    document.getElementById("sponsor").onmousemove = (e) => {
+
+const x = e.pageX - e.target.offsetLeft
+const y = e.pageY - e.target.offsetTop
+
+e.target.style.setProperty('--x', `${ x }px`)
+e.target.style.setProperty('--y', `${ y }px`)
+    }
 </script>
 {{ end }}

@@ -1,7 +1,6 @@
 window.onload = function () {
 
     let maintitle = document.getElementById("mainTitle");
-    console.log(maintitle);
     document.addEventListener("mousemove", (event) => {
         const winWidth = window.innerWidth;
         const winHeight = window.innerHeight;

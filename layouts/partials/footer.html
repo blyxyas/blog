@@ -1,14 +1,12 @@
-<footer class="footer">
-	<div class="footer__inner">
-        <div id="sfcq1we6fyzyc3ttc8q13jg7sykrberp134"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=q1we6fyzyc3ttc8q13jg7sykrberp134&down=async" async></script><br><a href="https://www.freecounterstat.com">page counter</a><noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=q1we6fyzyc3ttc8q13jg7sykrberp134" border="0" title="page counter" alt="page counter"></a></noscript>
-	</div>
-  </footer>
-  {{ if .Params.katex }}{{ partial "katex.html" . }}{{ end }}
-
-  {{ $menu := resources.Get "js/menu.js" | js.Build }}
-  {{ $prism := resources.Get "js/prism.js" | js.Build }}
-  {{ $theme := resources.Get "js/theme.js" | js.Build }}
-  {{ $bundle := slice $menu $prism $theme | resources.Concat "bundle.js" | resources.Minify }}
-  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-  
-  {{- partial "extended_footer.html" . }}
+<div class="info">
+    <div class="about-me">
+        <h2 id="about-me">About me</h2>
+        <p>Hi! I'm Alejandra (a.k.a <b><a href="https://github.com/blyxyas">@blyxyas</a></b>), a Spanish programmer, cat lover and girly girl ✨ I spend the majority of my time working on <a href="https://github.com/rust-lang/rust">Rust</a>, making it faster, reviewing contributor's PRs, and sending cat faces like (^._.^)ﾉ or (=｀ω´=). <sub>Please don't judge.</sub> If you'd like to know more about me, you can always send me an email at blyxyas at gmail dot com<br><br>So yeah, this is my blog, you can go to my special <a href="https://goose.love/">About Me page</a> for more special effects!</p>
+    </div>
+    <div class="sponsor-me">
+        <h2 id="sponsor-me">Supporting my work</h2>
+        <p>You can support my work by buying me a coffee or through <a href="https://github.com/sponsors/blyxyas">GitHub Sponsors</a>, it isn't obligatory and I (thankfully) have enough to live, but your support serves as motivation to make Rust more performant!<br>If you choose to donate to me, you can click the GitHub Sponsors link above or the button below.
+        
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="blyxyas" data-color="#BD5FFF" data-emoji="☕"  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script></p>
+    </div>
+</div>

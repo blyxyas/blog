@@ -85,4 +85,19 @@ Quite a lengthy schema definition (even though I cut some documentation), luckil
 
 ## Implementing `rust-project.json` in our project
 
-Firstly, we have to take into account what IDEs are our developers using. In the majority of cases it will be VSCode, but we also have to take into account that some may be using NeoVim or a JetBrains solution. We can consult the [configuration path in RA's documentation](https://rust-analyzer.github.io/manual.html#configuration).
+After the `rust-project.json` file is created at the root of the project, we'll set up the key `rust-analyzer.linkedProjects` in the IDEs configuration for RA (e.g. 
+`.vscode/settings.json` if we're using VSCode). This key's value will be the path to the `rust-project.json` file.
+
+{{< code language="JSON" id="2" expand="Show" collapse="Hide" isCollapsed="false" >}}
+{
+  "rust-analyzer.linkedProjects": [
+    "rust-project.json"
+  ]
+}
+{{< /code >}}
+
+So... that's it, now we just have to create the actual file.
+
+## How is it used in rustlings
+
+Each rustlings' exercise is in a directory called 

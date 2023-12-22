@@ -47,7 +47,7 @@ I tried doing that in [a (now archived) repository](https://github.com/blyxyas/c
 
 To use `perf`, a machine must have `kernel.perf_event_paranoid` set to 1 or less in `/etc/sysctl.conf`. If that's not set, you'll get this error:
 
-```
+```text
 Error:
 Access to performance monitoring and observability operations is limited.
 Consider adjusting /proc/sys/kernel/perf_event_paranoid setting to open
@@ -112,6 +112,7 @@ h2:hover {
 
 .disclaimer-embark img {
     opacity: .3;
+    width: 40%;
 }
 
 </style>

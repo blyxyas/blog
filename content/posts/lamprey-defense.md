@@ -1,7 +1,7 @@
 ---
 title: 'In the defense of pet lampreys'
 date: 2024-01-18T18:00:28+01:00
-draft: true
+draft: false
 ---
 
 [*The original version is available here (Spanish, PDF)*](/documents/lamprey-defense-ES.pdf)

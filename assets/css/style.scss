@@ -118,7 +118,7 @@ a .main-title-wrapper {
   display: flex;
 }
 
-sub {
+sub, small {
   color: gray;
   font-size: 10px;
 }
@@ -170,3 +170,15 @@ main h1 {
   font-size: 5ch;
 }
 
+code {
+  background-color: rgb(210, 210, 210);
+  padding: 2px;
+  border-radius: 5px;
+  color: rgb(148, 21, 21);
+}
+
+blockquote {
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  font-style: italic;
+}

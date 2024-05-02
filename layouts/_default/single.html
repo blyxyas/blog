@@ -4,7 +4,7 @@
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
   <time class="post-date">
-    {{ .Date.Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }}
+    {{ .Date.Format ($.Site.Params.DateFormatSingle | default "2006-01-02") }} - {{ printf "Estimated read time: %d minutes" .ReadingTime }} 
   </time>
 
   <div class="post-content">

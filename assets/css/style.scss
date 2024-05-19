@@ -19,7 +19,6 @@ body {
   color: #222;
   font-family: sans-serif;
   line-height: 1.5;
-  max-width: 100%;
   margin: 0%;
 }
 
@@ -28,7 +27,7 @@ img {
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 3px solid #222;
   margin-bottom: 1rem;
 }
 
@@ -140,6 +139,7 @@ main {
   padding-bottom: 10px;
   border-radius: 10px;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;  
+  height: fit-content;
 }
 
 .home-el h2 * {
@@ -169,6 +169,7 @@ main .home-el:first-child::before {
 main h1 {
   font-family: NeueWorld-Bold;
   font-size: 5ch;
+  padding: 1ch;
 }
 
 code {
@@ -217,5 +218,16 @@ blockquote {
   main .home-el:first-child {
     border: 5px solid #4fdb2c;
     border-radius: 10px;
+  }
+
+  main .post-content {
+    font-size: 3ch;
+    width: 90%;
+  }
+
+  footer {
+    width: 0%;
+    font-size: 2.5ch;
+    opacity: 0%;
   }
 }

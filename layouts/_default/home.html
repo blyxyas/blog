@@ -3,7 +3,7 @@
   {{ range site.RegularPages }}
     <div class="home-el">
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
+      <p>{{ .Summary }}</p>
     </div>
   {{ end }}
 {{ end }}

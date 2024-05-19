@@ -42,12 +42,13 @@ footer {
 
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: line !important;
+  text-decoration-color: #b764ff;
+  text-decoration-thickness: 6px;
 }
 
-a .main-title-wrapper {
-  text-decoration: none;
-}
+// a .main-title-wrapper {
+// }
 
 .main-title-wrapper {
   display: flex;
@@ -181,4 +182,40 @@ blockquote {
   color: rgb(74, 74, 74);
   font-weight: bold;
   font-style: italic;
+}
+
+// Mobile-friendly! :)
+@media only screen and (max-width: 768px) {
+  .main-title {
+    width: 50%;
+    padding-top: 5px;
+  }
+
+  .main-title-wrapper {
+    width: 100vh;
+  }
+
+  main {
+    display: grid;
+    justify-items: center;
+    width: 100vh;
+  }
+
+  main div {
+    width: 90%;
+    height: 50vh;
+  }
+
+  .home-el p {
+    font-size: 2ch;
+  }
+
+  .home-el h2 {
+    font-size: 3ch;
+  }
+
+  main .home-el:first-child {
+    border: 5px solid #4fdb2c;
+    border-radius: 10px;
+  }
 }

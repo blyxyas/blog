@@ -43,7 +43,7 @@ a {
   color: black;
   text-decoration: line !important;
   text-decoration-color: #b764ff;
-  text-decoration-thickness: 6px;
+  text-decoration-thickness: 3px;
 }
 
 // a .main-title-wrapper {
@@ -183,6 +183,10 @@ blockquote {
   color: rgb(74, 74, 74);
   font-weight: bold;
   font-style: italic;
+}
+
+video {
+  width: 100%;
 }
 
 // Mobile-friendly! :)

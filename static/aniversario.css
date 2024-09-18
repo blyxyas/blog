@@ -1,0 +1,131 @@
+@font-face {
+    font-family: NeueWorld-Regular;
+    src: url("/fonts/NeueWorld-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: NeueWorld-Bold;
+    src: url("/fonts/NeueWorld-Bold.ttf");
+  }
+  
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(121, 7, 228);
+}
+
+.loading {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    animation: lift 8s ease-in forwards;
+
+}
+
+.gatuncho {
+    font-size: 128px;
+    display: flex;
+    text-shadow: -6px -6px 0 #000, 6px -6px 0 #000, -6px 6px 0 #000, 6px 6px 0 #000;
+}
+
+.progress {
+--progress: 0%;
+
+width: 30%;
+height: 50px;
+border: 1px solid #fff;
+box-shadow: 0 0 10px #aaa;
+}
+
+.progress .bar {
+width: 0;
+height: 100%;
+background: linear-gradient(gold, #c85, gold);
+background-repeat: repeat;
+box-shadow: 0 0 10px 0px orange;
+animation: 
+    shine 4s ease-in infinite,
+    end 1s ease-out 1,
+    completion 6s ease-in-out forwards;
+transition: width 3s ease;
+}
+
+@keyframes shine {
+0% { background-position: 0 0; }
+100% { background-position: 0 50px; }
+}
+
+@keyframes end {
+0%, 100% { box-shadow: 0 0 10px 0px orange; }
+50% { box-shadow: 0 0 15px 5px orange; }
+}
+
+@keyframes completion {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes lift {
+    0% {
+        top: 0;
+    }
+    70% {
+        top: 0;
+    }
+    100% {
+        top: -1000vh;
+    }
+}
+
+.real {
+    z-index: -1;
+    background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg");
+    background-size: 10%;
+    animation: pan 60s infinite;
+}
+
+@keyframes pan {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% -15%;
+    }
+  }
+
+.anivideo {
+    width: 100vw;
+    height: 100vh;
+    animation: fade 8s forwards;
+    border-image: url("https://jenkov.com/images/css/border-image.png");
+}
+
+@keyframes fade {
+    0% { opacity: 0%;}
+    70% { opacity: 0%;}
+    100% { opacity: 100%;}
+}
+
+.texto{
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    font-family: NeueWorld-Regular;
+}
+
+.texto b {
+    font-family: NeueWorld-Bold;
+    
+}
+
+.texto p {
+  font-family: "Libre Franklin";
+}

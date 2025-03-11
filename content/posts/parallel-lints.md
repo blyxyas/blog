@@ -1,7 +1,7 @@
 ---
 title: 'Rust: Parallel Lints & the loudness wars'
 date: 2025-03-11T17:14:29+01:00
-draft: true
+draft: false
 ---
 
 You probably know the phenomenon known as *The loudness wars*, which has

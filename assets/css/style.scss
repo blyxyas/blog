@@ -18,7 +18,19 @@ p {
 
 body {
   // color: #222;
-  background-color: #272727;
+  /* background-color: #272727; */
+  background: conic-gradient(
+    red 40deg 50deg,
+    white 90deg,
+    black 90deg 180deg,
+    white 180deg 270deg,
+    black 270deg 34deg,
+    blue 359deg 360deg,
+  );
+  background-repeat: repeat;
+  background-size: 90px 90px;
+  background-position: top left;
+
   font-family: sans-serif;
   color: white;
   line-height: 1.5;
@@ -40,6 +52,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 a {
@@ -126,6 +139,18 @@ sub, small {
   font-size: 10px;
 }
 
+main {
+  padding-bottom: 10%;
+  /* background-color: black; */
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 50%;
+}
+
+main > * {
+  background-color: black;
+}
+
 @media (min-width: 798px) {
   main {
     padding-left: 30%;
@@ -133,9 +158,6 @@ sub, small {
   }
 }
 
-main {
-  padding-bottom: 10%;
-}
 
 .home-el {
   padding-top: 10px;
@@ -196,6 +218,8 @@ blockquote {
 video {
   width: 100%;
 }
+
+
 
 // Mobile-friendly! :)
 @media only screen and (max-width: 768px) {

@@ -8,6 +8,7 @@
   </time>
 
   <div class="post-content">
+    {{ .TableOfContents }}
   {{ .Content }}
   </div>
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

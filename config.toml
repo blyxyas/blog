@@ -66,3 +66,6 @@ subtitle = "A blog I made"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.tableOfContents]
+startLevel = 1

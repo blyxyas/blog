@@ -54,8 +54,11 @@ issue.
 That's why I created ["clippy-triager"](https://github.com/blyxyas/clippy-triager).
 It's a tool that scans Clippy's github issues and lets me see the ones that haven't been fixed, and have received very little attention
 
-Apart from highlighted issues, Mentorship and some initial evaluation was also provided. Issues were bisected to see if there was a single change we
-could point to when bugfixing.
+Apart from highlighted issues, Mentorship and some initial evaluation was also provided. Issues were bisected to see
+if there was a single change we could point to when bugfixing. We really went above and beyond so that any person that
+wanted to contribute to Clippy, **could** contribute to Clippy. At the end of the day, no one can mantain a project
+forever and contributions are the blood of an open source project. So lowering the amount of internal and
+hyper-specific knowledge is vital for any open source project.
 
 ## Execution
 
@@ -86,6 +89,9 @@ We had to do lots of tunning to the Github action posting the comment, but that 
 
 We can say that the [feature freeze was a complete success.](https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-190).
 With 326 merged pull requests and about all of them being fixed false positives, we improved the accuracy of Clippy greatly!
+
+If you're wondering if we'll be repeating this, the answer is _probably_. Not so frequently that anyone will notice
+a slowdown in adding features, but just enough that everyone will be a little more confident that Clippy is correct.
 
 And effectively, we brought **47 new contributors** into the project! 47 New people, each with their own aspirations.
 In fact, being that this is my blog and I can do whatever I want, I'll just post the whole list along with their
@@ -144,5 +150,7 @@ In the same breath, if some of these become a fascist dictator, we do not claim 
 name.
 
 ![Obama awards Obama a Medal](/images/obama_awards_obama_a_medal.jpg)
+
+Also, I'll publish an interview with the most profilic contributor in the project soon. So stay tuned!
 
 [inside-rust]:https://blog.rust-lang.org/inside-rust/2025/06/21/announcing-the-clippy-feature-freeze

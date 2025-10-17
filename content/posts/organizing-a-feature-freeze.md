@@ -9,6 +9,9 @@ that we held hostage all lint-adding pull requests, all false-negative fixing pu
 options for user-facing features and overall, anything that added new complexity instead of taking it away
 (with the exception of bugfixes that focused on removing false positives, those were permitted to add complexity.)
 
+Today I present a more casual insight on how the Clippy feature freeze took place. In the future, there will be a Rust Inside
+publication soon talking about the specific effects that this event caused.
+
 ## Motivation
 
 Every good idea needs something that sparks it, if an idea doesn't have one, that isn't an idea, that's a random

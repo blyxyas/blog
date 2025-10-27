@@ -1,5 +1,5 @@
 ---
-title: 'Enough AI, own your digital life"'
+title: '"Enough AI, own your digital life"'
 date: 2025-10-16T16:13:01+01:00
 draft: false
 ---

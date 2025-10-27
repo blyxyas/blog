@@ -52,7 +52,7 @@ There are lots of ways to act. As for immediate, easy action I can think of:
 - Use small, personally-owned webpages. If you're in a stable financial situation, donate to the ones you use the most!
 - Migrate from corporate-owned social media (e.g. Twitter) to open ones (e.g. Mastodon),
 if you cannot find one, use an alternative open front-end. For example, instead of using Youtube,
-I use [Invidious](https://invidious.io) (no ads, no tracking, no fingerprinting, and it stablishes a better
+I use [Invidious](https://invidious.io) (no ads, no tracking, no fingerprinting, and it establishes a better
 relationship with the platform)
 
 Always remember that you're not alone, there are people interested in

@@ -12,9 +12,9 @@
                 </g>
             </g>
             </svg> RSS FEED</a>
-            {{- if $.GitInfo -}}
-            <a href="https://github.com/blyxyas/blog/commit/{{ .GitInfo.Hash }}"><b>built on `{{ .GitInfo.AbbreviatedHash }}`</b></a>
-            {{- end -}}
+            {{ with .GitInfo }}
+            <br><a href="https://github.com/blyxyas/blog/commit/{{ .Hash }}"><b>built on <code class="language-git">{{ .AbbreviatedHash }}</code></b></a>
+            {{ end }}
     </div>
     <div class="sponsor-me">
         <h2 id="sponsor-me">Supporting my work</h2>

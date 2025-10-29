@@ -1,7 +1,7 @@
 ---
 title: 'The (rust) Clippy Changelog Cat Contest, a brief retrospective'
-date: 2025-10-28T13:19:01+01:00
-draft: true
+date: 2025-10-29T17:13:01+01:00
+draft: false
 ---
 
 A long time ago, the Clippy kingdom was suffering from the darkest of epidemics; our changelog wasn't formatted as it

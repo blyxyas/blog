@@ -1,5 +1,5 @@
 {{ $res := resources.Get "css/style.scss" }}
-{{ $style := $res | css.Sass }}
+{{ $style := $res | css.Sass | minify }}
 {{- if eq hugo.Environment "development" }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{- else }}

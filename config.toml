@@ -12,6 +12,8 @@ subtitle = "A blog I made"
 # leave empty to disable, enter display text to enable
 # lastModDisplay = ""
 
+enableGitInfo = true
+
 [params]
   keywords = "tech, math, games, indie, geek"
   copyright = ""
@@ -47,7 +49,7 @@ subtitle = "A blog I made"
 
 
 [logo]
-    logoText = "Silly Little Things"
+    logoText = "blog.goose.love"
     logoHomeLink = "/"
   # or
   #

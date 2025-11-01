@@ -30,11 +30,11 @@ We first started this journey by getting a new tool in our belt. `SPEEDTEST` is 
 
 This tool was pretty primitive, but it made things like opening [#12188](https://github.com/rust-lang/rust-clippy/issues/12188) feasible and made a good starting point. Later, we could look into benchmarking Clippy using existing tools in the ecosystem's tool belt. *`rustc-perf` is that existing tool*.
 
-[`rustc-perf`](https://github.com/rust-lang/rustc-perf) is our benchmarking tool and bot. It benchmarks every single commit done to `rust-lang/rust` so that people in the performance team can later triage and look for any regressions or big improvements. 
+[`rustc-perf`](https://github.com/rust-lang/rustc-perf) is our benchmarking tool and bot. It benchmarks every single commit done to `rust-lang/rust` so that people in the performance team can later triage and look for any regressions or big improvements.
 
 ![The rustc-perf interface](/images/rustc-perf-ui.png)
 
-What if we could integrate Clippy with that workflow? [That's exactly the goal I set in this Zulip thread](https://rust-lang.zulipchat.com/#narrow/stream/257328-clippy/topic/Clippy's.20performance/near/366555916) (among others). We achieved this after multiple conversations with <sub>mainly</sub> <a href="https://github.com/Kobzol">Kobzol</a>, from the infra team, we achieved just that in [rust-lang/rustc-perf#1724](https://github.com/rust-lang/rustc-perf/pull/1724)
+What if we could integrate Clippy with that workflow? [That's exactly the goal I set in this Zulip thread](https://rust-lang.zulipchat.com/#narrow/stream/257328-clippy/topic/Clippy's.20performance/near/366555916) (among others). We achieved this after multiple conversations with <small>mainly</small> <a href="https://github.com/Kobzol">Kobzol</a>, from the infra team, we achieved just that in [rust-lang/rustc-perf#1724](https://github.com/rust-lang/rustc-perf/pull/1724)
 
 ---
 
@@ -42,7 +42,7 @@ After adapting our tool for benchmarking so that we could benchmark a Clippy PR,
 
 With the `becnh` script, we could change a pretty ugly sequence of commands (cloning clippy into a unique clone of rust-lang/rust, pull the changes from the desired PR and use a lengthy command to store the `rustc-perf` benchmark results) into this cool & clean command.
 
-{{< code language="Bash" id="2" >}}sh becnh 12453 span_lint_into_diag 
+{{< code language="Bash" id="2" >}}sh becnh 12453 span_lint_into_diag
 {{< /code >}}
 
 ... That's it. It will import the relevant branch from #12453 to the Rust repo, build it and benchmark it. Pretty cool, I know.

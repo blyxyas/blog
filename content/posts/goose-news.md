@@ -14,7 +14,7 @@ I know, quite impressive!
 
 ## A new theme
 
-The website you're looking at right now (unless you've decided to visit an old post, for some reason) is, while pretty customized, a premade theme. It's the Hugo [hello-friend theme, by Radek Kozieł](https://github.com/panr/hugo-theme-hello-friend). You've probably seen a website like this a dozen times! <sub>If you peruse other dev's blogs</sub>.
+The website you're looking at right now (unless you've decided to visit an old post, for some reason) is, while pretty customized, a premade theme. It's the Hugo [hello-friend theme, by Radek Kozieł](https://github.com/panr/hugo-theme-hello-friend). You've probably seen a website like this a dozen times! <small>If you peruse other dev's blogs</small>.
 
 So, I'm making a new theme! Its name is `baguette2`, there isn't really a connection with France or anything, it was the first thing that came to mind. If you're thinking "Wait, were's `baguette1`?" *`baguette1` never existed, kiddo*. Don't question it.
 

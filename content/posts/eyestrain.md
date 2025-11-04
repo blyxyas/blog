@@ -27,7 +27,7 @@ At the end, it isn't much better, as a lot of screens are back-lit; they have a 
 
 ## WAIT, long-term eye damage?
 
-Yep, turns out your parents were right about this. Exposure to blue light (400 - 500 nm) (Not only blue 
+Yep, turns out your parents were right about this. Exposure to blue light (400 - 500 nm) (Not only blue
 light, but any short-wavelength light) can be harmful to the retina. Peak damage being around 440 nm[^8], See Figure 1.
 
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4734149/figure/f1/">{{<figure src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4734149/bin/mv-v22-61-f1.jpg" style="padding:20px;background-color: white; border: 5px dashed #292a2d;" caption="**Figure 1** | Source: [Tosini, G., Ferguson, I., & Tsubota, K. (2016). Effects of blue light on the circadian system and eye physiology. Molecular vision, 22, 61–72.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4734149/) Copyright © 2016 Molecular Vision ; Creative Commons Attributions License" captionPosition="left">}}</a>
@@ -73,14 +73,14 @@ Anyway, I'll brighten this <span style="color:#009957;">color</span> to <span st
 
 I can't believe it actually **looks kinda good**... *Maybe I should adopt it as the official theme for this blog...*
 
-I really thought it would hurt my eyes even more. Maybe using science to craft things *does* work after all! 
+I really thought it would hurt my eyes even more. Maybe using science to craft things *does* work after all!
 
 ## Conclusion
 
 *Talking about eyes for so long makes my ocular globes feel weird...*
 Ok, this was pretty fun to research, but note that I'm not even close to being an Ophthalmologist. Although I tried to provide as many references as I could, take this with a whole NaCl rock.
 
-Also, did you know that I'm very scared by eyes? Like, a genuine phobia? Just a fun fact. *Making this was pretty fun :skull:* <sub>I think it all started when I was very young...</sub>
+Also, did you know that I'm very scared by eyes? Like, a genuine phobia? Just a fun fact. *Making this was pretty fun :skull:* <small>I think it all started when I was very young...</small>
 
 [^1]: [Dong Ju Kim, Chi-Yeon Lim, Namyi Gu, Choul Yong Park . "Visual Fatigue Induced by Viewing a Tablet Computer with a High-resolution Display"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5636714/pdf/kjo-31-388.pdf)
 

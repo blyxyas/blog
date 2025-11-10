@@ -5,9 +5,9 @@ draft: false
 ---
 
 > [!memo] There's a video of this!
-> This post is the script for [this talk](https://www.bilibili.com/video/BV1yFn8z4E2m/) I gave at RustChinaConf 2025, the pacing may be a bit off if you're only reading the text version.
->
-> [Slides here](/documents/RustChinaConf2025-slides.pdf)
+> This post is the script for [this talk](https://www.bilibili.com/video/BV1yFn8z4E2m/) I gave at RustChinaConf 2025, the pacing may be a bit off if you're only reading the text version. </div></div>
+
+[Slides here](/documents/RustChinaConf2025-slides.pdf)
 
 你好! I'm Alejandra González, a Clippy team member that focuses mainly on performance for both the Clippy side of things, as well as the general Rust diagnostics (so, Rust’s compiler errors and warnings).  I’m obsessed with performance, so obsessed in fact that I’ve been a project goal owner twice, both times for making Clippy faster. (With great results so far).
 

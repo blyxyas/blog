@@ -60,7 +60,7 @@ But just going with the most popular and well-maintained option isn't that inter
 
 ## Srht?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1rem"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200z"></path></svg> Sourcehut, maintained by DHH and currently in a public alpha. It has support for mailing lists and ticket tracking, and it has two interesting features that GitHub lacks:
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1rem"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200z"></path></svg> Sourcehut, maintained by Drew DeVault and currently in a public alpha. It has support for mailing lists and ticket tracking, and it has two interesting features that GitHub lacks:
 
 - Provides a hosted IRC, with a web chat; and,
 - It's fully self-hostable; meaning that,

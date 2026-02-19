@@ -4,21 +4,21 @@ date: 2025-10-16T16:13:01+01:00
 draft: false
 ---
 
-OpenAI (the company behind ChatGPT, althought that bit is obvious) has
+OpenAI (the company behind ChatGPT, although that bit is obvious) has
 unveiled _ChatGPT Atlas_. Their new chromium-based browser with ChatGPT
 integrations right out of the box.
 
 ---
 
 Asceticism is a lifestyle characterized by self-discipline and a withdrawal
-from worldly pleasures. Multiple phylosophies and some religions have reached
-the conclusion that suffering is the only path to excelence, and convenience
+from worldly pleasures. Multiple philosophies and some religions have reached
+the conclusion that suffering is the only path to excellence, and convenience
 is a path for destruction and bad-habit making.
 
 That's why I find myself yelling at clouds, because we were promised that in
-the golden age of information, wisdom would be inevitable. But iall we're seeing
+the golden age of information, wisdom would be inevitable. But all we're seeing
 is innocent people fooled by a system that instructs them to avoid knowledge,
-as thinking is evil, inconvience is no better than dead, and 🎵 boredom is a crime 🎵.
+as thinking is evil, inconvenience is no better than dead, and 🎵 boredom is a crime 🎵.
 
 We must reject this simplification of the contemporary life and build strength,
 build independence from the people that see us as nothing more than a wallet.

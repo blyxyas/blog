@@ -8,8 +8,8 @@ draft: false
 sent waves through the free and open source software ecosystem. It set a precedent for which big projects
 _could_ migrate from GitHub, and people listened.
 
-Until now, if you were a project born on GitHub, you'd die on GitHub. GitHub (i.e. Microsoft)
-does not like that other code hosting tools exist, and thus, doesn't proportionate any kind of
+Until now, if you were a project born on Github, you'd die on Github. Github (i.e. Microsoft)
+does not like that other code hosting tools exist, and thus, doesn't provide any kind of
 migration tool or implement any open protocol. If Git wasn't already open, we can be sure that
 Microsoft would close and obfuscate its algorithm.
 

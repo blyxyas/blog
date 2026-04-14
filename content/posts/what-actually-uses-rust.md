@@ -1,10 +1,13 @@
 ---
 title: "Ok, what ACTUALLY uses Rust?"
-date: 2026-04-04T12:47:00+02:00
+date: 2026-04-14T12:47:00+02:00
 draft: true
 ---
 
-Nowadays Rust is mentioned in lots of places. Being the "new" kid on block it's notoriety is easy to miscalculate and not have a full grasp of Rust's magnitude. That's why today I'll be compiling all the places that I can found where Rust is being publicly used.
+Nowadays Rust is mentioned in lots of places. Being that Rust is the "new" kid on the block, setting new trends throughout the tech and programming world, it's sometimes hard to have a grasp of where exactly Rust is used. Today I'm presenting a non-exhaustive list of big proyects and companies that use Rust. Note that many of these companies don't have only one Rust project, but I'm highlighted the most talked about or significant.
+
+## The full list
+
 
 1. [Coreutils is currently being rewritten in Rust](https://uutils.github.io/)
 1. [The Linux Kernel has been using Rust since Linux 6.1, and has been stable since 6.19](https://rust-for-linux.com/)
@@ -57,5 +60,7 @@ Nowadays Rust is mentioned in lots of places. Being the "new" kid on block it's 
 1. [Ladybird, a Chrome alternative is moving from C++ to Rust](https://ladybird.org/posts/adopting-rust/)
 1. [Google also uses Rust](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html)
 1. [Jane Street is looking at Rust (confidential source, but talk linked)](https://www.janestreet.com/tech-talks/rust-for-everyone/)
+1. [Figma uses Rust for its multiplayer service](https://medium.com/figma-design/rust-in-production-at-figma-e10a0ec31929)
 
+I'll expand this list in the future with comentaries. If you know of a project that uses Rust that is not mentioned, please get in contact with me!
 

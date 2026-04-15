@@ -1,34 +1,31 @@
 ---
-title: 'Commission Art to Help Alastor'
+title: 'Comisiona Arte para ayudar a Alastor'
 date: 2026-04-15T01:45:01+02:00
 draft: false
-highlighted: true
-pinned: true
+hidden: true
 ---
 
-English | [Español](https://blog.goose.love/posts/commission-art-to-help-alastor-es/)
-
-Alastor is my girlfriend's cat, he's 2 years old and the smallest in his litter. Alastor isn't violent, he doesn't pick fights with other cats or dogs,
-and would never hurt a human.
+Alastor es el gato de mi novai, tiene 2 añitos y fue el más pequeño de su camada. Alastor no es
+violento, y nunca se pelea con otros gatos o peor, mucho menos con humanos.
 
 ![Alastor doing a shrimp](/images/alastor/alastor-white.jpeg)
 
-A couple weeks ago someone hurt Alastor. A blunt impact fractured his femur in
-6 fragments, and the vet suggested that the most probable cause was another human
-intentionally hurting him.
+Pero, hace un par de semanas alguien le hizo daño. Un impacto contundente rompió
+su femur en 6 fragmentos, y el veterinario sugirió que la causa más probable es
+que algún otro humano le haya hecho daño intencionalmente.
 
-Alastor had to get operated, stabilizing his broken bones with a needle and is now
-undergoing recuperation. He is now much better, but the surgery was costly and
-we'd greatly appreaciate any help covering the bills.
+Tuvimos que operarlo, fijando sus huesos rotos con una aguja y ahora está recuperandose.
+Aunque está mucho mejor, la operación fue cara y apreciariamos un montón un poco de ayuda
+con eso.
 
 ![Alastor's leg X-Ray](/images/alastor/alastor-leg.jpeg)
 
-This is where you can help! If you like art drawn by humans, please [consider checking
-her out](https://www.instagram.com/luxmangastyle/). **She's offering a 50% discount on ALL commissions for a limited time**, this includes furry,
-chibi, semi-realistic and NSFW art!
+Aquí es donde tú puedes ayudar! Si te gusta el arte dibujado a mano POR HUMANOS, por favor
+considera [pedirle una comisión](https://www.instagram.com/luxmangastyle/). **Está ofreciendo
+un 50% de DESCUENTO EN TODAS las comisiones por TIEMPO LIMITADO**, incluyendo arte furry, chibi, semi-realista y NSFW.
 
 <div class="disclaimer" align="center">
-<b><span class="ub">50%</span> discount on ALL COMMISSIONS.</b><br>
+<b><span class="ub">50%</span> de DESCUENTO en TODAS las comisiones</b><br>
 <a href="https://www.instagram.com/luxmangastyle/">Instagram: @luxmangastyle</a>
 </div>
 

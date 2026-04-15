@@ -11,16 +11,16 @@ violento, y nunca se pelea con otros gatos o peor, mucho menos con humanos.
 ![Alastor doing a shrimp](/images/alastor/alastor-white.jpeg)
 
 Pero, hace un par de semanas alguien le hizo daño. Un impacto contundente rompió
-su femur en 6 fragmentos, y el veterinario sugirió que la causa más probable es
+su fémur en 6 fragmentos, y el veterinario sugirió que la causa más probable es
 que algún otro humano le haya hecho daño intencionalmente.
 
-Tuvimos que operarlo, fijando sus huesos rotos con una aguja y ahora está recuperandose.
-Aunque está mucho mejor, la operación fue cara y apreciariamos un montón un poco de ayuda
+Tuvimos que operarlo, fijando sus huesos rotos con una aguja y ahora está recuperándose.
+Aunque está mucho mejor, la operación fue cara y apreciaríamos un montón un poco de ayuda
 con eso.
 
 ![Alastor's leg X-Ray](/images/alastor/alastor-leg.jpeg)
 
-Aquí es donde tú puedes ayudar! Si te gusta el arte dibujado a mano POR HUMANOS, por favor
+¡Aquí es donde tú puedes ayudar! Si te gusta el arte dibujado a mano POR HUMANOS, por favor
 considera [pedirle una comisión](https://www.instagram.com/luxmangastyle/). **Está ofreciendo
 un 50% de DESCUENTO EN TODAS las comisiones por TIEMPO LIMITADO**, incluyendo arte furry, chibi, semi-realista y NSFW.
 

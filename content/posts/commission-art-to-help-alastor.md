@@ -1,7 +1,7 @@
 ---
 title: 'Commission Art to Help Alastor'
 date: 2026-04-15T01:45:01+02:00
-draft: true
+draft: false
 highlighted: true
 pinned: true
 ---

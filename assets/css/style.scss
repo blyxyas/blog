@@ -366,10 +366,18 @@ blockquote {
     font-weight: bold;
 }
 
-.home-list-el {
-    /* border-left-color: #52c41a;
-    border-top-color: #444;
-    border-right-color: #444;
-    border-bottom-color: #444; */
-    /* background-color: red; */
+.art-disclaimer {
+    font-size: 18px;
+    justify-content: center;
+    background-color: #e62701;
+    color: white;
+    margin-bottom: 10px;
+    border: 2px solid #e60000;
+    padding: 10px;
+}
+
+.art-disclaimer a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
 }

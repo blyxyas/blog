@@ -1,7 +1,7 @@
 ---
 title: "Ok, what ACTUALLY uses Rust?"
 date: 2026-04-15T01:45:01+02:00
-draft: true
+draft: false
 ---
 
 Nowadays Rust is mentioned in lots of places. Being that Rust is the "new" kid on the

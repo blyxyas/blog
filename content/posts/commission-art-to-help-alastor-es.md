@@ -5,7 +5,7 @@ draft: false
 hidden: true
 ---
 
-Alastor es el gato de mi novai, tiene 2 añitos y fue el más pequeño de su camada. Alastor no es
+Alastor es el gato de mi novia, tiene 2 añitos y fue el más pequeño de su camada. Alastor no es
 violento, y nunca se pelea con otros gatos o peor, mucho menos con humanos.
 
 ![Alastor doing a shrimp](/images/alastor/alastor-white.jpeg)

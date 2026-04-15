@@ -1,10 +1,15 @@
-{{ define "main" }} {{ .Content }} {{ range site.RegularPages }}
-{{ if .Param "hidden" }}{{else}}
-<div class="home-el">
-    <h2>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    </h2>
-    <p>{{ .Summary }}</p>
-    <a href="{{ .RelPermalink }}"><u><b>Read more</b></u></a>
+{{ define "main" }}
+<div class="home-list-el">
+    {{ .Content }} {{ range site.RegularPages }} {{ if .Param "hidden"
+    }}{{else}}
+    <div class="home-el {{ if .Params.highlighted }}highlighted{{end}}">
+        <h2>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+        <p>{{ .Summary }}</p>
+        <a href="{{ .RelPermalink }}"
+            ><u><b>Read more</b></u></a
+        >
+    </div>
 </div>
 {{ end }} {{ end }} {{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "Ok, what ACTUALLY uses Rust?"
-date: 2026-04-14T12:47:00+02:00
+date: 2026-04-15T01:45:01+02:00
 draft: true
 ---
 

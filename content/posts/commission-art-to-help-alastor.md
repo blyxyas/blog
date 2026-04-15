@@ -6,8 +6,7 @@ highlighted: true
 pinned: true
 ---
 
-Alastor is my girlfriend's cat, he was the smallest in his litter and very
-white. Alastor isn't violent, he doesn't pick fights with other cats or dogs,
+Alastor is my girlfriend's cat, he's 2 years old and the smallest in his litter. Alastor isn't violent, he doesn't pick fights with other cats or dogs,
 and would never hurt a human.
 
 ![Alastor doing a shrimp](/images/alastor/alastor-white.jpeg)

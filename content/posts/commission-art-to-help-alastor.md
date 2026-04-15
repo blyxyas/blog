@@ -10,7 +10,7 @@ Alastor is my girlfriend's cat, he was the smallest in his litter and very
 white. Alastor isn't violent, he doesn't pick fights with other cats or dogs,
 and would never hurt a human.
 
-![Alastor doing a shrimp](/images/alastor-white.jpeg)
+![Alastor doing a shrimp](/images/alastor/alastor-white.jpeg)
 
 A couple weeks ago someone hurt Alastor. A blunt impact fractured his femur in
 6 fragments, and the vet suggested that the most probable cause was another human
@@ -20,7 +20,7 @@ Alastor had to get operated, stabilizing his broken bones with a needle and is n
 undergoing recuperation. He is now much better, but the surgery was costly and
 we'd greatly appreaciate any help covering the bills.
 
-![Alastor's leg X-Ray](/images/alastor-leg.jpeg)
+![Alastor's leg X-Ray](/images/alastor/alastor-leg.jpeg)
 
 This is where you can help! If you like art drawn by humans, please [consider checking
 her out](https://www.instagram.com/luxmangastyle/). **She's offering a 50% discount on ALL commissions for a limited time**, this includes furry,

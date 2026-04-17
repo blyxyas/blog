@@ -65,6 +65,7 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Ladybird, a Chrome alternative is moving from C++ to Rust](https://ladybird.org/posts/adopting-rust/) |
 | [Google also uses Rust](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html) |
 | [Figma uses Rust for its multiplayer service](https://medium.com/figma-design/rust-in-production-at-figma-e10a0ec31929) |
+| [Kraken Trading Desktop application uses Rust for it's GUI (proprietary)](https://www.kraken.com/desktop) |
 
 I'll expand this list in the future with comentaries. If you know of a project that uses Rust that is not mentioned, please get in contact with me!
 

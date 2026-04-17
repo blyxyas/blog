@@ -10,7 +10,7 @@ hard to have a grasp of where exactly Rust is used. Today I'm presenting a non-e
 list of big projects and companies that use Rust. Note that many of these companies don't
 have only one Rust project, but I'm highlighting the most talked about and significant.
 
-# The full list
+# The (not) full list
 
 |                                                                |
 | --------------------------------------------------------------------------- |
@@ -24,8 +24,11 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Chromium now integrates Rust](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/rust.md) |
 | U.S (NSA) Government recommends Rust in its ["Guidance on How to Protect Against Software Memory Safety Issues"](https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3215760/nsa-releases-guidance-on-how-to-protect-against-software-memory-safety-issues/) |
 | [White House urges developers to switch to Rust (replacing C and C++)](https://web.archive.org/web/20260319055104/https://www.bleepingcomputer.com/news/security/white-house-urges-devs-to-switch-to-memory-safe-programming-languages/) |
+| [Signal, the private messaging app uses Rust for its protocol](https://github.com/signalapp/libsignal) |
 | [Zed, the IDE written in Rust is used by 7.3%](https://survey.stackoverflow.co/2025/technology#1-dev-id-es) |
+| [Brave Browser overhauled its adblock engine in Rust, cutting memory consumption by 75%](https://brave.com/privacy-updates/36-adblock-memory-reduction/) |
 | [Alacritty, the terminal emulator written in Rust is used by 17% of developers (in Arch Linux Community Survey)](https://linuxiac.com/arch-linux-community-survey-results/) |
+| [Azure has a Rust SDK as part of Microsoft's Rust embrace](https://github.com/Azure/azure-sdk-for-rust)|
 | [Rust has been identified as the safer coding tool by NIST](https://rustfoundation.org/media/rust-identified-as-safer-coding-tool-by-nist/) |
 | [Microsoft CTO recommends Rust over C and C++](https://www.geekwire.com/2025/orange-crabs-in-the-machine-how-rust-is-rewriting-the-rules-of-modern-software/) |
 | [Apple is now using Rust in its cloud infrastructure and server backend](https://www.reddit.com/r/rust/comments/vx6lb0/apples_cloud_traffic_team_is_adopting_rust_as_per/) |
@@ -37,11 +40,15 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Dropbox now uses Rust for its sync](https://dropbox.tech/application/why-we-built-a-custom-rust-library-for-capture) |
 | [Notes by Firefox has been using Rust components since 1.1 Android (old post)](https://www.reddit.com/r/firefox/comments/99gdde/notes_now_uses_rust_android_components/) |
 | [ruff, the currently-best Python linter by Astral](https://github.com/astral-sh/ruff) |
-| [Typst, the Latex replacement now used by arxiv](https://github.com/typst/typst) |
+| [Typst, the Latex replacement](https://github.com/typst/typst) |
+| [Microsoft's Quantum Development Kit is mostly written in Rust](https://quantum.microsoft.com/en-us/insights/blogs/qir/introducing-the-microsoft-quantum-development-kit-preview) |
+| [arxiv is using a Rust program to generate HTML from Latex (will be open-sourced in the near future) |
+| [Twitter is using Rust in its recommendation algorithm](https://github.com/twitter/the-algorithm/blob/main/navi/README.md) |
 | [meilisearch, the search engine powering Renault Group and Hugging Face](https://github.com/meilisearch/meilisearch) |
+| [The fish shell ported itself to Rust from C++ and reported a success](https://fishshell.com/blog/rustport/) |
 | [nushell, a new type of shell that's gaining popularity](https://github.com/nushell/nushell) |
 | [servo, the work-in-progress browser engine that would replace Gecko in Firefox (and is now an embeddable engine)](https://github.com/servo/servo) |
-| [turborepo by Vercel, one of the most popular mono-repo tools out there](https://github.com/vercel/turborepo) |
+| [turborepo by Vercel, one of the most popular monorepo tools out there](https://github.com/vercel/turborepo) |
 | [difftastic, the structural diff that understands syntax](https://github.com/Wilfred/difftastic) |
 | [mdbook, the FOSS documentation tool alternative to gitbook](https://github.com/rust-lang/mdbook) |
 | [swc, the Javascript compiler and bundler used by Next.js, Vercel, ByteDance, Tencent and more](https://swc.rs) |
@@ -65,6 +72,8 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Ladybird, a Chrome alternative is moving from C++ to Rust](https://ladybird.org/posts/adopting-rust/) |
 | [Google also uses Rust](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html) |
 | [Figma uses Rust for its multiplayer service](https://medium.com/figma-design/rust-in-production-at-figma-e10a0ec31929) |
+
+(Thanks to the wonderful folks at lobste.rs and everyone who contacted for additions)
 
 I'll expand this list in the future with comentaries. If you know of a project that uses Rust that is not mentioned, please get in contact with me!
 

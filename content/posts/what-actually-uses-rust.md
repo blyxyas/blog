@@ -52,6 +52,7 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [difftastic, the structural diff that understands syntax](https://github.com/Wilfred/difftastic) |
 | [mdbook, the FOSS documentation tool alternative to gitbook](https://github.com/rust-lang/mdbook) |
 | [swc, the Javascript compiler and bundler used by Next.js, Vercel, ByteDance, Tencent and more](https://swc.rs) |
+| [ExpressVPN is now more lightweight thanks to Rust](https://www.zdnet.com/article/expressvpn-gets-faster-and-more-secure-thanks-to-rust/) |
 | [Reckless, the strong chess engine that's fighting Stockfish in the TCEC chess superfinal](https://github.com/codedeliveryservice/Reckless) |
 | [Zellij, the `tmux` alternative](https://github.com/zellij-org/zellij) |
 | [just, the command runner that powers Pop OS!, flathub and catppuccin](https://github.com/casey/just) |

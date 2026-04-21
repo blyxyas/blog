@@ -14,10 +14,10 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 
 |                                                                |
 | --------------------------------------------------------------------------- |
-| [Coreutils is currently being rewritten in Rust](https://uutils.github.io/) |
+| [uutils is the Coreutils drop-in replacement written in Rust](https://uutils.github.io/) |
 | [The Linux Kernel has been using Rust since Linux 6.1, and has been stable since 6.19](https://rust-for-linux.com/) |
 | [Windows 11 also uses Rust components](https://winaero.com/not-only-linux-windows-11-now-includes-components-written-in-rust/) |
-| [Ubuntu has now adopted uutil (Rust's coreutil)](https://www.cyberciti.biz/linux-news/ubuntu-to-explore-rust-based-uutils-as-potential-gnu-core-utilities-replacement/) |
+| [Ubuntu has now adopted uutils (Rust's coreutil)](https://www.cyberciti.biz/linux-news/ubuntu-to-explore-rust-based-uutils-as-potential-gnu-core-utilities-replacement/) |
 | [ripgrep is the grep alternative, 10x faster with 60K stars](https://ripgrep.dev/) |
 | [Deno, the Node.js spiritual successor is written in Rust](https://github.com/denoland/deno) |
 | [Tauri, the Electron alternative/successor](https://github.com/tauri-apps/tauri) |
@@ -45,7 +45,9 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [arxiv is using a Rust program to generate HTML from Latex (will be open-sourced in the near future) |
 | [Twitter is using Rust in its recommendation algorithm](https://github.com/twitter/the-algorithm/blob/main/navi/README.md) |
 | [meilisearch, the search engine powering Renault Group and Hugging Face](https://github.com/meilisearch/meilisearch) |
-| [The fish shell ported itself to Rust from C++ and reported a success](https://fishshell.com/blog/rustport/) |
+| [Volvo is using Rust for its ECU](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line) |
+| [Signal (client & server) heavily utilizes Rust](https://github.com/signalapp/libsignal) |
+| [Amazon Prime Video now uses Rust and WebAssembly for its app on Tv](https://www.amazon.science/blog/how-prime-video-updates-its-app-for-more-than-8-000-device-types) |
 | [nushell, a new type of shell that's gaining popularity](https://github.com/nushell/nushell) |
 | [servo, the work-in-progress browser engine that would replace Gecko in Firefox (and is now an embeddable engine)](https://github.com/servo/servo) |
 | [turborepo by Vercel, one of the most popular monorepo tools out there](https://github.com/vercel/turborepo) |
@@ -54,6 +56,7 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [swc, the Javascript compiler and bundler used by Next.js, Vercel, ByteDance, Tencent and more](https://swc.rs) |
 | [ExpressVPN is now more lightweight thanks to Rust](https://www.zdnet.com/article/expressvpn-gets-faster-and-more-secure-thanks-to-rust/) |
 | [Reckless, the strong chess engine that's fighting Stockfish in the TCEC chess superfinal](https://github.com/codedeliveryservice/Reckless) |
+| [Talking of fish, the fish shell rewrote its entire codebase to Rust from C++](https://fishshell.com/blog/rustport/) |
 | [Zellij, the `tmux` alternative](https://github.com/zellij-org/zellij) |
 | [just, the command runner that powers Pop OS!, flathub and catppuccin](https://github.com/casey/just) |
 | [NASA using Rust for memory-safe programming](https://techport.nasa.gov/projects/96767) |
@@ -73,6 +76,8 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Ladybird, a Chrome alternative is moving from C++ to Rust](https://ladybird.org/posts/adopting-rust/) |
 | [Google also uses Rust](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html) |
 | [Figma uses Rust for its multiplayer service](https://medium.com/figma-design/rust-in-production-at-figma-e10a0ec31929) |
+| [polars, the Python Dataframes manipulation built in Rust](https://pola.rs) |
+| [Radicle is an interesting decentralized Git forge](https://radicle.xyz) |
 
 (Thanks to the wonderful folks at lobste.rs and everyone who contacted for additions)
 

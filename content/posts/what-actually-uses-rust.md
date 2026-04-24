@@ -78,6 +78,8 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [Figma uses Rust for its multiplayer service](https://medium.com/figma-design/rust-in-production-at-figma-e10a0ec31929) |
 | [polars, the Python Dataframes manipulation built in Rust](https://pola.rs) |
 | [Radicle is an interesting decentralized Git forge](https://radicle.xyz) |
+| [Brave uses Rust for it's adblock layer](github.com/brave/adblock-rust) |
+| [Firefox currently is using Rust it's adblocker (Brave's adblocker)](https://itsfoss.com/news/firefox-ships-brave-adblock-engine/) |
 
 (Thanks to the wonderful folks at lobste.rs and everyone who contacted for additions)
 

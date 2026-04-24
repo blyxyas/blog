@@ -42,7 +42,7 @@ have only one Rust project, but I'm highlighting the most talked about and signi
 | [ruff, the currently-best Python linter by Astral](https://github.com/astral-sh/ruff) |
 | [Typst, the Latex replacement](https://github.com/typst/typst) |
 | [Microsoft's Quantum Development Kit is mostly written in Rust](https://quantum.microsoft.com/en-us/insights/blogs/qir/introducing-the-microsoft-quantum-development-kit-preview) |
-| [arxiv is using a Rust program to generate HTML from Latex (will be open-sourced in the near future) |
+| arxiv is using a Rust program to generate HTML from Latex (will be open-sourced in the near future) |
 | [Twitter is using Rust in its recommendation algorithm](https://github.com/twitter/the-algorithm/blob/main/navi/README.md) |
 | [meilisearch, the search engine powering Renault Group and Hugging Face](https://github.com/meilisearch/meilisearch) |
 | [Volvo is using Rust for its ECU](https://tweedegolf.nl/en/blog/137/rust-is-rolling-off-the-volvo-assembly-line) |

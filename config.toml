@@ -60,7 +60,7 @@ enableGitInfo = true
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "https://goose.love/"
+    url = "https://www.goose.love/"
   [[menu.main]]
     identifier = "sponsor"
     name = "Support my work ❤"

@@ -1,0 +1,9 @@
+{{ $res := resources.Get "css/style.scss" }}
+{{ $style := $res | css.Sass | minify }}
+{{- if eq hugo.Environment "development" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- else }}
+  {{- with $style | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" crossorigin="anonymous">
+  {{- end }}
+{{- end }}

@@ -1,0 +1,14 @@
+<footer class="footer">
+	<div class="footer__inner">
+        <div id="sfcq1we6fyzyc3ttc8q13jg7sykrberp134"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=q1we6fyzyc3ttc8q13jg7sykrberp134&down=async" async></script><br><a href="https://www.freecounterstat.com">page counter</a><noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=q1we6fyzyc3ttc8q13jg7sykrberp134" border="0" title="page counter" alt="page counter"></a></noscript>
+	</div>
+  </footer>
+  {{ if .Params.katex }}{{ partial "katex.html" . }}{{ end }}
+
+  {{ $menu := resources.Get "js/menu.js" | js.Build }}
+  {{ $prism := resources.Get "js/prism.js" | js.Build }}
+  {{ $theme := resources.Get "js/theme.js" | js.Build }}
+  {{ $bundle := slice $menu $prism $theme | resources.Concat "bundle.js" | resources.Minify }}
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+  
+  {{- partial "extended_footer.html" . }}
